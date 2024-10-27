@@ -1,5 +1,5 @@
 # DC
-```c
+```cpp
 extern i32 getchar;
 
 context main i32 argc str* argv -> i32;
