@@ -1,9 +1,11 @@
 # DC
+This is a programming language, written in C++ using llvm, for small scripts/programs
+
+I wrote this as a hobby project, It took me only 7-8 days to write a stable version of DC
 ```cpp
 extern i32 getchar;
 
 context main i32 argc str* argv -> i32;
-  "This is a programming language, written in C++ using llvm, for small scripts/programs"
   "You can use standard C library"
   declare i32 c;
   getchar() -> c;
