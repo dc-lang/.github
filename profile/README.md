@@ -29,7 +29,7 @@ context main i32 argc str* argv -> i32;
   fi;
   "DC Provides a crash system, kinda like panics in rust, or exceptions in c++, in DC they are called collapses"
   parse_int("69something") -> num; "This will cause a collapse"
-  collapse("Manual collapse") "Or you can manually cause a collapse"
+  collapse("Manual collapse"); "Or you can manually cause a collapse"
   return 0;
 context;
 
